@@ -1,0 +1,30 @@
+# Build outputs
+build/
+bin/
+out/
+dist/
+*.o
+*.a
+*.so
+*.dylib
+*.dSYM/
+*.out
+
+# Editor and OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Test outputs
+test-output/
+*.log
