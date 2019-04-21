@@ -110,7 +110,7 @@ static void insert_internal(RTreeNode *node, RTreeBBox bbox, uint32_t id, void *
     for (size_t i = 0; i < node->count; ++i) {
         RTreeBBox combined = rtree_bbox_combine(node->as.internal.child_bboxes[i], bbox);
         double enlargement = rtree_bbox_area(combined) - rtree_bbox_area(node->as.internal.child_bboxes[i]);
-        if (enlargement < best_child) {
+        if (enlargement < best_enlargement) {
             best_enlargement = enlargement;
             best_child = i;
         }
