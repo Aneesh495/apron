@@ -1,0 +1,25 @@
+{
+  "icao": "EDDF",
+  "iata": "FRA",
+  "name": "Frankfurt Airport",
+  "referencePoint": {
+    "latitude": 50.0379,
+    "longitude": 8.5622,
+    "elevationMeters": 111.0
+  },
+  "runways": [
+    {"designator": "07C", "heading": 68.0, "lengthMeters": 4000, "widthMeters": 60, "mode": "mixed"},
+    {"designator": "25C", "heading": 248.0, "lengthMeters": 4000, "widthMeters": 60, "mode": "mixed"},
+    {"designator": "07R", "heading": 68.0, "lengthMeters": 4000, "widthMeters": 45, "mode": "departure"},
+    {"designator": "25L", "heading": 248.0, "lengthMeters": 4000, "widthMeters": 45, "mode": "departure"},
+    {"designator": "18", "heading": 179.0, "lengthMeters": 4000, "widthMeters": 45, "mode": "departure_only"},
+    {"designator": "07L", "heading": 68.0, "lengthMeters": 2800, "widthMeters": 45, "mode": "landing_only"},
+    {"designator": "25R", "heading": 248.0, "lengthMeters": 2800, "widthMeters": 45, "mode": "landing_only"}
+  ],
+  "stands": [
+    {"id": "A10", "terminal": "T1", "contact": true, "maxWingspanMeters": 65.0},
+    {"id": "B20", "terminal": "T1", "contact": true, "maxWingspanMeters": 80.0},
+    {"id": "D05", "terminal": "T2", "contact": true, "maxWingspanMeters": 65.0},
+    {"id": "E12", "terminal": "T2", "contact": true, "maxWingspanMeters": 80.0}
+  ]
+}

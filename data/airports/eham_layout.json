@@ -1,0 +1,30 @@
+{
+  "icao": "EHAM",
+  "iata": "AMS",
+  "name": "Amsterdam Airport Schiphol",
+  "referencePoint": {
+    "latitude": 52.3105,
+    "longitude": 4.7683,
+    "elevationMeters": -3.4
+  },
+  "runways": [
+    {"designator": "18R", "heading": 183.0, "name": "Polderbaan", "lengthMeters": 3800, "mode": "landing_only"},
+    {"designator": "36L", "heading": 3.0, "name": "Polderbaan", "lengthMeters": 3800, "mode": "landing_only"},
+    {"designator": "06", "heading": 58.0, "name": "Kaagbaan", "lengthMeters": 3500, "mode": "mixed"},
+    {"designator": "24", "heading": 238.0, "name": "Kaagbaan", "lengthMeters": 3500, "mode": "mixed"},
+    {"designator": "18L", "heading": 183.0, "name": "Aalsmeerbaan", "lengthMeters": 3400, "mode": "departure_only"},
+    {"designator": "36R", "heading": 3.0, "name": "Aalsmeerbaan", "lengthMeters": 3400, "mode": "departure_only"},
+    {"designator": "18C", "heading": 183.0, "name": "Zwanenburgerbaan", "lengthMeters": 3300, "mode": "mixed"},
+    {"designator": "36C", "heading": 3.0, "name": "Zwanenburgerbaan", "lengthMeters": 3300, "mode": "mixed"},
+    {"designator": "09", "heading": 87.0, "name": "Buitenveldertbaan", "lengthMeters": 3450, "mode": "mixed"},
+    {"designator": "27", "heading": 267.0, "name": "Buitenveldertbaan", "lengthMeters": 3450, "mode": "mixed"},
+    {"designator": "04", "heading": 41.0, "name": "Oostbaan", "lengthMeters": 2014, "mode": "general_aviation"},
+    {"designator": "22", "heading": 221.0, "name": "Oostbaan", "lengthMeters": 2014, "mode": "general_aviation"}
+  ],
+  "stands": [
+    {"id": "D01", "terminal": "Pier D", "contact": true, "maxWingspanMeters": 65.0},
+    {"id": "E04", "terminal": "Pier E", "contact": true, "maxWingspanMeters": 80.0},
+    {"id": "F02", "terminal": "Pier F", "contact": true, "maxWingspanMeters": 80.0},
+    {"id": "G05", "terminal": "Pier G", "contact": true, "maxWingspanMeters": 80.0}
+  ]
+}

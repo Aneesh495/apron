@@ -1,0 +1,75 @@
+{
+  "icao": "EGLL",
+  "iata": "LHR",
+  "name": "London Heathrow Airport",
+  "referencePoint": {
+    "latitude": 51.4700,
+    "longitude": -0.4543,
+    "elevationMeters": 25.3
+  },
+  "runways": [
+    {
+      "designator": "09L",
+      "heading": 90.0,
+      "lengthMeters": 3902,
+      "widthMeters": 50,
+      "mode": "arrival",
+      "tora": 3902,
+      "toda": 3902,
+      "asda": 3902,
+      "lda": 3595
+    },
+    {
+      "designator": "27R",
+      "heading": 270.0,
+      "lengthMeters": 3902,
+      "widthMeters": 50,
+      "mode": "arrival",
+      "tora": 3902,
+      "toda": 3902,
+      "asda": 3902,
+      "lda": 3884
+    },
+    {
+      "designator": "09R",
+      "heading": 90.0,
+      "lengthMeters": 3660,
+      "widthMeters": 50,
+      "mode": "departure",
+      "tora": 3660,
+      "toda": 3660,
+      "asda": 3660,
+      "lda": 3660
+    },
+    {
+      "designator": "27L",
+      "heading": 270.0,
+      "lengthMeters": 3660,
+      "widthMeters": 50,
+      "mode": "departure",
+      "tora": 3660,
+      "toda": 3660,
+      "asda": 3660,
+      "lda": 3660
+    }
+  ],
+  "taxiways": [
+    {"id": "A", "maxWingspanMeters": 80.0, "maxSpeedKnots": 30.0},
+    {"id": "B", "maxWingspanMeters": 80.0, "maxSpeedKnots": 30.0},
+    {"id": "N", "maxWingspanMeters": 65.0, "maxSpeedKnots": 20.0},
+    {"id": "S", "maxWingspanMeters": 65.0, "maxSpeedKnots": 20.0},
+    {"id": "W", "maxWingspanMeters": 52.0, "maxSpeedKnots": 15.0}
+  ],
+  "stands": [
+    {"id": "201", "terminal": "T2", "contact": true, "maxWingspanMeters": 65.0, "hasFEGP": true, "hasPCA": true},
+    {"id": "202", "terminal": "T2", "contact": true, "maxWingspanMeters": 65.0, "hasFEGP": true, "hasPCA": true},
+    {"id": "301", "terminal": "T3", "contact": true, "maxWingspanMeters": 80.0, "hasFEGP": true, "hasPCA": true},
+    {"id": "501", "terminal": "T5", "contact": true, "maxWingspanMeters": 80.0, "hasFEGP": true, "hasPCA": true},
+    {"id": "502", "terminal": "T5", "contact": true, "maxWingspanMeters": 80.0, "hasFEGP": true, "hasPCA": true},
+    {"id": "503", "terminal": "T5", "contact": true, "maxWingspanMeters": 65.0, "hasFEGP": true, "hasPCA": true},
+    {"id": "R01", "terminal": "Remote", "contact": false, "maxWingspanMeters": 80.0, "hasFEGP": false, "hasPCA": false}
+  ],
+  "deicingPads": [
+    {"id": "PAD_J", "capacity": 4, "typesSupported": ["Type_I", "Type_IV"]}
+  ]
+}

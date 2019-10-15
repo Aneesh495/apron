@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<IATA_AIDX_FlightLegNotifRQ xmlns="http://www.iata.org/IATA/2007/00" TimeStamp="2026-11-20T12:00:00Z" Version="16.1">
+  <FlightLeg>
+    <LegIdentifier>
+      <Airline CodeContext="ICAO">BAW</Airline>
+      <FlightNumber>142</FlightNumber>
+      <DepartureAirport CodeContext="ICAO">EGLL</DepartureAirport>
+      <ArrivalAirport CodeContext="ICAO">KJFK</ArrivalAirport>
+      <OriginDate>2026-11-20</OriginDate>
+    </LegIdentifier>
+    <FlightData>
+      <AircraftInfo>
+        <AircraftType>B77W</AircraftType>
+        <AircraftRegistration>G-STBA</AircraftRegistration>
+      </AircraftInfo>
+      <AirportResources>
+        <AircraftStand>501</AircraftStand>
+        <RunwayDesignator>27L</RunwayDesignator>
+      </AirportResources>
+      <OperationTime OperationQualifier="SOBT" TimeType="SCD">2026-11-20T12:00:00Z</OperationTime>
+      <OperationTime OperationQualifier="EOBT" TimeType="EST">2026-11-20T12:05:00Z</OperationTime>
+      <OperationTime OperationQualifier="TOBT" TimeType="EST">2026-11-20T12:08:00Z</OperationTime>
+      <OperationTime OperationQualifier="TSAT" TimeType="TGT">2026-11-20T12:12:00Z</OperationTime>
+      <OperationTime OperationQualifier="TTOT" TimeType="TGT">2026-11-20T12:26:00Z</OperationTime>
+      <OperationTime OperationQualifier="AOBT" TimeType="ACT">2026-11-20T12:13:00Z</OperationTime>
+      <OperationTime OperationQualifier="ATOT" TimeType="ACT">2026-11-20T12:28:00Z</OperationTime>
+    </FlightData>
+  </FlightLeg>
+</IATA_AIDX_FlightLegNotifRQ>

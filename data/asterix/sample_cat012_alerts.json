@@ -1,0 +1,35 @@
+[
+  {
+    "alertId": 1001,
+    "alertType": "RIMCAS_STAGE_1_ADVISORY",
+    "severity": "advisory",
+    "target1": 501,
+    "target2": 502,
+    "zoneId": "RWY_27L",
+    "timeOfDay": 43210.5,
+    "active": false,
+    "message": "Potential runway occupancy conflict projected in 45 seconds"
+  },
+  {
+    "alertId": 1002,
+    "alertType": "RIMCAS_STAGE_2_WARNING",
+    "severity": "warning",
+    "target1": 501,
+    "target2": 503,
+    "zoneId": "RWY_27R",
+    "timeOfDay": 43255.0,
+    "active": true,
+    "message": "Separation buffer violation predicted between landing arrival and crossing taxi"
+  },
+  {
+    "alertId": 1003,
+    "alertType": "STOPBAR_VIOLATION",
+    "severity": "alarm",
+    "target1": 504,
+    "target2": 0,
+    "zoneId": "STOPBAR_N1",
+    "timeOfDay": 43300.2,
+    "active": true,
+    "message": "Unauthorized aircraft crossed illuminated red stopbar at N1"
+  }
+]
