@@ -13,6 +13,7 @@ int main(void) {
     OzSpaceStatus st = oz_space_ask(sp, &alts);
     assert(st == OZ_SPACE_ALTERNATIVES);
     assert(alts == 2);
+    (void)st;
 
     /* Clone space */
     OzSpace *clone = oz_space_clone(sp);

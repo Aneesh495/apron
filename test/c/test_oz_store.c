@@ -12,6 +12,7 @@ int main(void) {
     uint32_t a3 = oz_atom_intern("runway");
     assert(a1 == a3);
     assert(a1 != a2);
+    (void)a1; (void)a2; (void)a3;
     assert(strcmp(oz_atom_name(a1), "runway") == 0);
     assert(strcmp(oz_atom_name(a2), "taxiway") == 0);
 
@@ -21,6 +22,7 @@ int main(void) {
 
     OzValue *u1 = oz_store_alloc_unbound(store);
     OzValue *u2 = oz_store_alloc_unbound(store);
+    (void)u2;
     assert(!oz_is_determined(u1));
     assert(!oz_is_determined(u2));
     assert(oz_deref(u1) == u1);

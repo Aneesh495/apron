@@ -27,6 +27,7 @@ int main(void) {
     size_t hit_count = 0;
     size_t returned = rtree_query(tree, query_box, count_cb, &hit_count);
     assert(returned == hit_count);
+    (void)returned;
     assert(hit_count >= 3);
 
     rtree_destroy(tree);

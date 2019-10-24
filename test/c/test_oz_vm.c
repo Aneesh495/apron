@@ -29,6 +29,7 @@ int main(void) {
     oz_vm_load_chunk(vm, chunk);
     int res = oz_vm_run(vm);
     assert(res == 0);
+    (void)res;
 
     oz_vm_destroy(vm);
     printf("[test_oz_vm] PASS\n");

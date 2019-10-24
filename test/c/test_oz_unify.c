@@ -14,6 +14,7 @@ int main(void) {
     OzValue *u2 = oz_store_alloc_unbound(store);
     assert(oz_unify(store, u1, u2));
     assert(oz_deref(u1) == oz_deref(u2));
+    (void)u1; (void)u2;
 
     /* Unbound to integer */
     OzValue *val100 = oz_val_create_int(100);
@@ -47,10 +48,12 @@ int main(void) {
     /* Verify bound values inside records */
     OzValue *bound_id = oz_deref(f2[0].value);
     assert(bound_id->type == OZ_VAL_ATOM);
+    (void)bound_id;
 
     OzValue *bound_speed = oz_deref(f1[1].value);
     assert(bound_speed->type == OZ_VAL_INT);
     assert(bound_speed->as.int_val == 250);
+    (void)bound_speed;
 
     oz_val_release(r1);
     oz_val_release(r2);
